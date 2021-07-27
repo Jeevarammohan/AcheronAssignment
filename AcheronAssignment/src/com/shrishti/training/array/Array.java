@@ -1,4 +1,4 @@
-package com.shrishti.training;
+package com.shrishti.training.array;
 import java.util.Scanner;
 public class Array {
 
@@ -10,6 +10,7 @@ public class Array {
 		int array[]=new int[size];
 		int smallestNumberInTheArray=Integer.MAX_VALUE;
 		int greatestNumberInTheArray=0;
+		
 		System.out.println("Enter the array elements");
 		for(int index=0;index<size;index++) {
 			array[index]=scanner.nextInt();
