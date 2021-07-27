@@ -11,8 +11,9 @@ public class NumberPattern {
 				System.out.println(row+" ");
 			}
 			System.out.println();
-			
 		}
+		scanner.close();
+
 		
 	}
 }

@@ -12,6 +12,8 @@ public class Factorial {
 			factorial*=number--;
 		}
 		System.out.println("The factorial of a "+number+" is "+factorial);
+		scanner.close();
+
 	}
 
 }
