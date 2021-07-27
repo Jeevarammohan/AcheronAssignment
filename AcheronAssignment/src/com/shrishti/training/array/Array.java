@@ -34,9 +34,7 @@ public class Array {
 		System.out.println("The greatest number in the array is: "+greatestNumberInTheArray);
 		System.out.println("The second smallest number in the array is: "+array[1]);
 		System.out.println("The second largest number in the array is: "+array[size-2]);
-
-
-
+		scanner.close();
 		
 	}
 
