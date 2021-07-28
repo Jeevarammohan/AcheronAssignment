@@ -8,11 +8,11 @@ public class Bank {
 	}
 
 	public void withdraw(int amount) {
-		this.balance -= amount;
+		balance -= amount;
 	}
 
 	public void deposit(int deposit) {
-		this.balance += deposit;
+		balance += deposit;
 	}
 
 	public double getBalance() {
