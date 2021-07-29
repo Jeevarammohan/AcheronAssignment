@@ -10,16 +10,16 @@ public class Employee {
 		this.designation = designation;
 	}
 
-	double calcBonus(double basicAllowance) {
+	public double calcBonus(double basicAllowance) {
 		return basicAllowance * 0.0833;
 	}
 
-	double calcBonus(double basicAllowance, double carAllowance) {
-		return (basicAllowance+carAllowance) * 0.0833;
+	public double calcBonus(double basicAllowance, double carAllowance) {
+		return (basicAllowance + carAllowance) * 0.0833;
 	}
 
-	double calcBonus(double basicAllowance, double carAllowance, double houseAllowance) {
-		return (basicAllowance+carAllowance+houseAllowance) * 0.0833;
+	public double calcBonus(double basicAllowance, double carAllowance, double houseAllowance) {
+		return (basicAllowance + carAllowance + houseAllowance) * 0.0833;
 	}
 
 }
