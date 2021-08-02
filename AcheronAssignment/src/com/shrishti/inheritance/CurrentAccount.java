@@ -1,7 +1,7 @@
 package com.shrishti.inheritance;
 
 public class CurrentAccount extends Bank {
-
+	
 	public CurrentAccount(double balance) {
 		super(balance);
 		// TODO Auto-generated constructor stub
@@ -10,17 +10,17 @@ public class CurrentAccount extends Bank {
 	@Override
 	void withdraw(double amount) {
 		// TODO Auto-generated method stub
-		balance -= amount - 20;
+		super.balance -= amount - 20;
 	}
 
 	@Override
 	void deposit(double amount) {
 		// TODO Auto-generated method stub
-		balance += amount - 20;
+		super.balance += amount - 20;
 	}
 
 	double getBalance() {
-		return balance;
+		return super.balance;
 	}
 
 }
